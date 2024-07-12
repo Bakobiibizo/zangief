@@ -1,6 +1,4 @@
 import argparse
-from overrides import override
-from src.zangief.miner.base_miner import endpoint
 from src.zangief.miner.base_miner import BaseMiner
 
 
@@ -10,6 +8,7 @@ class TranslateMiner(BaseMiner):
         super().__init__()
         self.config = self.get_config()
         self.get_endpoints()
+
 
 def parse_arugments():
     parser = argparse.ArgumentParser()

@@ -16,3 +16,13 @@ target-version = "py310"
 [tool.ruff.lint.mccabe]
 max-complexity = 10
 
+[tool.poetry]
+name = "zangeif"
+version = "0.1.0"
+description = ""
+authors = ["Richard Porteous <bakobiibizo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
